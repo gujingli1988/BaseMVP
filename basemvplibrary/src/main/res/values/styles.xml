@@ -1,0 +1,24 @@
+<resources>
+    <!--加载dialog-->
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!--加载dialog-->
+    <style name="CustomDialogs" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <!--加载dialog-->
+    <style name="CustomProgressDialog" parent="@style/CustomDialogs">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00FFFFFF</item>
+        <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置window背景透明，也就是去边框 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

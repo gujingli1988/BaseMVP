@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">标题</string>
+    <string name="right_text">右键</string>
+    <string name="left_text">左键</string>
+    <string name="loading">加载中...</string>
+    <string name="refresh_new">下拉刷新</string>
+    <string name="refresh_more">上拉加载</string>
+</resources>

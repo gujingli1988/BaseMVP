@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="stats_bar_height">0dp</dimen>
+    <dimen name="_stats_bar_height">0dp</dimen>
+    <dimen name="activity_titleHeight">44dp</dimen>
+    <dimen name="activity_titleSize">15sp</dimen>
+</resources>
